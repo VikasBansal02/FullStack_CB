@@ -21,14 +21,28 @@ const url='http://api.tvmaze.com/search/shows?q=:query';
 let fetch_Btn=document.getElementById('fetch_Btn');
 fetch_Btn.addEventListener('click',function(){
     const xhrO=new XMLHttpRequest();
-    xhrO.open('GET',url);
+    let inputB=document.getElementById('input');
+    if(inputB.value=='')
+    {
+        alert("Enter something-");
+    }
+    else{
+        xhrO.open('GET',url);
     xhrO.onload=function(){
-        
-        let obj=JSON.parse(this.responseText);
-        console.log(obj);
-        for (key in obj)
-        console.log(obj[key].show.image.medium);
+    
+        let obj_1=JSON.parse(this.responseText);
+        console.log(obj_1);
+        str="";
+        for (key in obj_1)
+        {
+            str=str+`<image src="${obj_1[key].show.image.medium}">`
+        }
+        let addimg=document.getElementById('addImg');
+        addimg.innerHTML=str;
+        console.log(obj_1[key].show.image.medium);
     }
 
     xhrO.send();
+    }
+
 })
