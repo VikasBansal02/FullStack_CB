@@ -1,0 +1,114 @@
+body{
+    margin:0px;
+    padding: 20px 100px;
+    background-color: slategray;
+}
+
+
+.btn{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 20px;
+    padding: auto;
+}
+
+#grey{
+    /* background-color: gray; */
+    border-color: gray;
+}
+#grey:hover{
+    background-color: gray;
+    /* border-color: gray; */
+    border: 1px solid black;
+}
+
+#pink{
+    /* background-color: lightpink; */
+    border-color: lightpink;
+}
+#pink:hover{
+    background-color: lightpink;
+    /* border-color: lightpink; */
+    border: 1px solid black;
+}
+
+#blue{
+    /* background-color: blue; */
+    border-color: blue;
+}
+#blue:hover{
+    background-color: blue;
+    /* border-color: blue; */
+    border: 1px solid black;
+}
+
+#green{
+    /* background-color:green ; */
+    border-color: green;
+}
+#green:hover{
+    background-color:green ;
+    border: 1px solid black;
+}
+
+#black{
+    /* background-color:black ; */
+    border-color: black;
+
+}
+#black:hover{
+    background-color:black ;
+    border: 1px solid white;
+
+}
+
+
+
+#color-switch{
+    text-align: center;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 20px;
+
+    margin: auto;
+    min-width: 80px;
+
+    width: 200px;
+    margin-top: 20px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    /* align-items: center; */
+}
+
+
+
+
+.container{
+    border: 2px solid rgb(41, 40, 40);
+    padding-bottom: 20px;
+    margin: auto;
+    min-width: 80px;
+    width: 700px;
+    margin-top: 20px;
+}
+h1{
+    text-decoration: underline;
+
+    color:black;
+    
+    text-align: center;
+    
+}
+input{
+    font-size: 23px;
+}
+button{
+    padding: 6px;
+    width: 80px;
+    border-radius: 8px;
+    font-size: 20px;
+}
