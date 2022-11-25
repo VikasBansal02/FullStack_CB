@@ -112,3 +112,12 @@ button{
     border-radius: 8px;
     font-size: 20px;
 }
+
+#main{
+    border: 2px solid rgb(41, 40, 40);
+    padding-bottom: 20px;
+    margin: auto;
+    min-width: 80px;
+    width: 700px;
+    margin-top: 20px;
+}
